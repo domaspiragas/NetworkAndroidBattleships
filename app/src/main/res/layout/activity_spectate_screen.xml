@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/topPanel"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+    <GridView
+        android:id="@+id/viewGrid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:numColumns="10"
+        android:layout_weight="1"
+        >
+    </GridView>
+    <LinearLayout
+        android:id="@+id/info"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=" 1">
+
+        <TextView
+            android:id="@+id/playerTurn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/yourShips"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/opponentShips"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5">
+
+            <Button
+                android:id="@+id/exitButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/exit_match"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/square"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+    <GridView
+        android:id="@+id/playGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="10"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        >
+    </GridView>
+    </LinearLayout>
+</LinearLayout>

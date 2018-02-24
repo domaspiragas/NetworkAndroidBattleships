@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "320361338336",
+    "firebase_url": "https://assignment-3-163422.firebaseio.com",
+    "project_id": "assignment-3-163422",
+    "storage_bucket": "assignment-3-163422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320361338336:android:f3af345dfca6fd61",
+        "android_client_info": {
+          "package_name": "com.cs4530.domaspiragas.assignment3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320361338336-2egkagr45fh70qtc1a6dhri6tf4uuof1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE6ImpCjtn2T7bBxtNuBiYCN4DW-EAVKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

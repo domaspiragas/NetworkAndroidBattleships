@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="fire_button">Fire!</string>
+    <string name="end_turn_button">End Turn</string>
+    <string name="player1_turn">Player 1\'s Turn</string>
+    <string name="player2_turn">Player 2\'s Turn</string>
+    <string name="player1_wins">Player 1 Wins!</string>
+    <string name="player2_wins">Player 2 Wins!</string>
+    <string name="player1_ships">Player 1 Ships:</string>
+    <string name="player2_ships">Player 2 Ships:</string>
+    <string name="your_ships">Your Ships:</string>
+    <string name="opponent_ships">Opponent Ships :</string>
+    <string name="exit_match">Exit Match</string>
+    <string name="new_game">New Game</string>
+    <string name="join_game">Join Game</string>
+    <string name="watch_game">Watch Game</string>
+    <string name="logout">Logout</string>
+    <string name="delete_game">Delete Game</string>
+    <string name="start_player1_turn">Click To Start Player1\'s Turn</string>
+    <string name="start_player2_turn">Click To Start Player2\'s Turn</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="already_user">Already have an account? Click here to log in!</string>
+    <string name="not_user">Don\'t have an account? Click here to create one!</string>
+    <string name="verification">Please Verify Your Email Address</string>
+    <string name="send_verification">SEND EMAIL VERIFICATION</string>
+    <string name="already_verified">I HAVE VERIFIED MY ACCOUNT</string>
+    <string name="password_requirements">Passwords must be at least 8 characters long and must contain
+        at least one number, one letter, and at least one of the following symbols !@#$%^&amp;*</string>
+    <string name="not_verified">has not been verified</string>
+
+</resources>
