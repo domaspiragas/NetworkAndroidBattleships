@@ -1,5 +1,5 @@
 # NetworkAndroidBattleships
-A real-time network [Battleships](https://en.wikipedia.org/wiki/Battleship_(game)#Description) clone for Android built in Kotlin
+A real-time network [Battleship](https://en.wikipedia.org/wiki/Battleship_(game)#Description) clone for Android built in Kotlin
 
 This is my final project for a Mobile Application Development course I took at the University of Utah in the Fall of 2017
 
